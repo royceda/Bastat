@@ -1,0 +1,30 @@
+entites:
+	-> Joueur
+	-> Ligue
+	-> Equipe
+	-> Phase de poule
+
+
+entites faibles:
+	-> phase_tableau
+	-> phase poule
+	-> poule
+	-> phase_tableau
+
+
+entites faible associées aux stats:
+	-> rebonds 
+	-> passes decisifs
+	-> faute
+	-> shoot
+	-> interception
+	-> contre
+	-> temps de jeu		
+	_> perte de ball (turnover)
+
+
+associations multivalué:
+	     -> formation_joueur
+	     -> poule_equipe
+	     -> poule match
+	     -> poule equipe
